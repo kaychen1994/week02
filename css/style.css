@@ -58,6 +58,10 @@ html {
 .pb-80{
     padding-bottom: 80px;
 }
+.mt-353{
+    margin-top: 353px;
+}
+
 
 /* header */
 .header{
@@ -66,7 +70,6 @@ html {
     background-repeat:no-repeat;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;  
     margin-bottom: 56px;
 }
