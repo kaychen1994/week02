@@ -73,9 +73,7 @@ html {
     margin-bottom: 56px;
 }
 
-.container{
-    width: 297px;  
-}
+
 
 h1{
     font-weight: 700;
@@ -91,6 +89,7 @@ h1{
 
 
 .follow{
+    width: 297px;
     display: flex;
     justify-content: space-between;
 }
