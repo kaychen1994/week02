@@ -62,7 +62,7 @@ html {
 /* header */
 .header{
     height: 960px;
-    background-image: url('../../img/header.png');
+    background-image: url('https://upload.cc/i1/2020/04/18/dxmw3E.png');
     background-repeat:no-repeat;
     display: flex;
     flex-direction: column;
@@ -189,7 +189,7 @@ h1{
 }
 
 .portfolio-bg{  
-    background-image: url('../../img/b2.png');
+    background-image: url('https://upload.cc/i1/2020/04/18/xjJKw8.png');
     background-repeat:no-repeat;
     background-position:0 80px;
 }
