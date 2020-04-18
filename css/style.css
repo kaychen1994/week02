@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    /* font-family: "Microsoft JhengHei", sans-serif; */
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* 共用 */
+.text{
+    font-weight: 700;
+    line-height: 42px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.h2White{
+    padding-top: 54px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #fff;
+    font-style: italic;
+}
+
+.h2Black{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 84px;
+    font-style: italic;
+}
+
+.textWhite{
+    color: white;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.ml-35{
+    margin-left: 35px;
+}
+
+.mb-55{
+    margin-bottom: 55px;
+}
+
+.mb-63{
+    margin-bottom: 63px;
+}
+.pb-80{
+    padding-bottom: 80px;
+}
+
+/* header */
+.header{
+    height: 960px;
+    background-image: url('../../img/header.png');
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-bottom: 56px;
+}
+
+.container{
+    width: 297px;  
+}
+
+h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 106px;
+    color: white;
+    font-style: italic;
+}
+
+.header p{
+    color: white;    
+}
+
+
+.follow{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* about */
+.about{
+    margin: 0 auto;
+    width: 398px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about h2{
+    margin-bottom: 39px;   
+}
+
+.about img{
+    margin-bottom: 21px;
+}
+
+
+.about hr{
+    width: 384px;
+    margin-bottom: 31px;
+}
+
+.dot{
+    position: relative;
+}
+
+.dot::before{
+    content: "";
+	position: absolute;
+	width: 22px;
+	height: 22px;
+    background-color: #891818;
+    left: -42px;
+    top: 11px;
+	border-radius: 50%;
+}
+
+
+/* brand */
+.brand{
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 160px;
+}
+.brand h2{
+    margin-bottom: 12px;
+}
+
+.brand p{
+    margin-bottom: 31px;
+}
+
+.brandStory{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.tShirt{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle{
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/*other works*/
+
+.works h2{
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 56px;
+}
+
+.portfolio{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.portfolio-bg{  
+    background-image: url('../../img/b2.png');
+    background-repeat:no-repeat;
+    background-position:0 80px;
+}
+.portfolio li p{
+    margin-bottom: 58px;
+    margin-top: 16px;
+}
+
+/* footer */
+
+.footer{
+    background: black;
+    text-align: center;
+}
+
+.footer h2{   
+    margin-bottom: 15px;
+}
+
