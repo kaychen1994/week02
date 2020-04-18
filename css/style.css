@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* font-family: "Microsoft JhengHei", sans-serif; */
 }
 
 html {
@@ -14,7 +13,7 @@ html {
 
 /* 共用 */
 .text{
-    font-weight: 700;
+    font-weight: 600;
     line-height: 42px;
     font-size: 24px;
     font-style: italic;
@@ -100,7 +99,6 @@ h1{
 /* about */
 .about{
     margin: 0 auto;
-    width: 398px;
     display: flex;
     align-items: center;
     justify-content: center;
