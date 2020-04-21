@@ -13,10 +13,10 @@
     <div class="wrap">
         <!-- header -->
         <div class="header">
-            <div>
-                <p class="text mt-353">Here’s</p>
+            <div class="headContent">
+                <span class="text">Here’s</span>
                 <h1>JOANNE</h1>
-                <p class="text mb-63">Founder of ‘’XXXD Official’’ </br>& Graphic Designer</p>
+                <p class="text founder">Founder of ‘’XXXD Official’’ </br>& Graphic Designer</p>
             </div>
             <ul class="follow">
                 <li>
@@ -45,15 +45,16 @@
         <div class="about">
             <h2 class="h2Black">About</h2>
             <img src="img/about.png" alt="">
-            <p class="text">Joanne Chen</p>
-            <p class="text">1997/10/10</p>
-            <p class="text">National Hex School Normal University</p>
-            <p class="text">Department of Visual Design</p>
+            <ul class="resume"><!-- p 改 ul>li -->
+                <li class="text">Joanne Chen</li>
+                <li class="text">1997/10/10</li>
+                <span>National Hex School Normal University</br>Department of Visual Design</span>
+            </ul>
             <hr>
-            <ul class="mb-55">
-                <li class="text dot">Founder of ‘’XXXD Official’’</li>
-                <li class="text dot ml-35">Graphic Designer</li>
-                <li class="text dot">Graphic Intern of Hex School</li>
+            <ul class="mb-55 resume text">
+                <li class="dot">Founder of ‘’XXXD Official’’</li>
+                <li class="dot">Graphic Designer</li>
+                <li class="dot">Graphic Intern of Hex School</li>
             </ul>
         </div>
 
@@ -61,10 +62,10 @@
         <div class="brand">
             <h2 class="h2White">My Brand ‘’XXXD’’</h2>
             <p class="text textWhite">Just Keep XXXD Everyday</p>
-            <ul class="mb-48">
-                <li class="textWhite brandStory">2020 年創立的個人服飾品牌</li>
-                <li class="textWhite brandStory">引領叛逆少年開啟與社會對話的窗口</li>
-                <li class="textWhite brandStory">主打概念潮流T-Shirt</li>
+            <ul class="mb-48 textWhite brandStory">
+                <li>2020 年創立的個人服飾品牌</li>
+                <li>引領叛逆少年開啟與社會對話的窗口</li>
+                <li>主打概念潮流T-Shirt</li>
             </ul>
 
             <ul class="tShirt">
@@ -85,45 +86,43 @@
         <!-- other works -->
         <div class="works">
             <h2 class="h2Black">Other Works</h2>
-            <p class="brandStory">2016-2020 年累積的作品</p>
-            <p class="brandStory mb-48">海報/廣告/攝影/LOGO/3D</p>
+            <p class="brandStory italic">2016-2020 年累積的作品</p>
+            <p class="brandStory italic mb-48">海報/廣告/攝影/LOGO/3D</p>
             <div class="portfolio-bg">
-                <ul class="portfolio">
+                <ul class="portfolio textWhite brandStory">
                     <li>
                         <img src="img/work1.png" alt="">
-                        <p class="textWhite brandStory">海報設計 / <span>2017</span></p>
+                        <p>海報設計 / <span>2017</span></p>
                     </li>
                     <li>
                         <img src="img/work2.png" alt="">
-                        <p class="textWhite brandStory">海報設計 / <span>2018</span></p>
+                        <p>海報設計 / <span>2018</span></p>
                     </li>
                     <li>
                         <img src="img/work3.png" alt="">
-                        <p class="textWhite brandStory">海報設計 / <span>2018</span></p>
+                        <p>海報設計 / <span>2018</span></p>
                     </li>
                     <li>
                         <img src="img/work4.png" alt="">
-                        <p class="textWhite brandStory">概念攝影 / <span>2018</span></p>
+                        <p>概念攝影 / <span>2018</span></p>
                     </li>
                     <li>
                         <img src="img/work5.png" alt="">
-                        <p class="textWhite brandStory">概念攝影 / <span>2018</span></p>
+                        <p>概念攝影 / <span>2018</span></p>
                     </li>
                     <li>
                         <img src="img/work6.png" alt="">
-                        <p class="textWhite brandStory">sasa 酒標設計 / <span>2019</span></p>
+                        <p>sasa 酒標設計 / <span>2019</span></p>
                     </li>
                     <li>
                         <img src="img/work7.png" alt="">
-                        <p class="textWhite brandStory">攝影創作 / <span>2018</span></p>
+                        <p>攝影創作 / <span>2018</span></p>
                     </li>
                     <li>
                         <img src="img/work8.png" alt="">
-                        <p class="textWhite brandStory">官網設計 / <span>2020</span></p>
+                        <p>官網設計 / <span>2020</span></p>
                     </li>
                 </ul>
-
-
             </div>
 
         </div>
@@ -131,8 +130,10 @@
         <!-- footer -->
         <div class="footer">
             <h2 class="h2White">Contact</h2>
-            <p class="text textWhite">Mail：xxxd@hexschool.com</p>
-            <p class="text pb-80 textWhite">Phone Number：0910123456</p>
+            <ul class="text textWhite"> <!-- p 改 ul>li -->
+                <li>Mail：xxxd@hexschool.com</li>
+                <li>Phone Number：0910123456</li>
+            </ul>
         </div>
 
     </div>
